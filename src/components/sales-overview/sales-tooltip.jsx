@@ -24,7 +24,7 @@ export const SalesTooltip = ({ className }) => {
   )
 }
 
-SalesTooltip.PropTypes = {
+SalesTooltip.propTypes = {
   className: PropTypes.string,
 }
 
