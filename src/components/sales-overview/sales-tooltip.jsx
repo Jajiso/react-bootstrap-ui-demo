@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons'
+import PropTypes from 'prop-types'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Tooltip from 'react-bootstrap/Tooltip'
 
@@ -21,6 +22,10 @@ export const SalesTooltip = ({ className }) => {
       </OverlayTrigger>
     </span>
   )
+}
+
+SalesTooltip.PropTypes = {
+  className: PropTypes.string,
 }
 
 export default SalesTooltip
