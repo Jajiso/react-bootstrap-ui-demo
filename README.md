@@ -1,6 +1,6 @@
 # Reactjs + Bootstrap v5.0 UI Demo
 
-> There is a problem with the setup of the tests right now so it give an error 'Can not found modules' for custom compoenents exported from 'src/...'
+> There is a problem with the setup of the tests right now so it give an error 'Can not found modules' for custom components exported from 'src/...'
 
 Implement the design provided in `design.png` as a set of React components.
 
